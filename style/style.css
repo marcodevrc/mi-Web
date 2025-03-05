@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #584b53;
+    color: white;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 1rem;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  section {
+    padding: 1rem;
+    border-bottom: 1px solid #FEF5EF;
+  }
+
+
+  img {
+    height: 200px; /* Mantén la altura fija */
+    object-fit: contain; /* La imagen se ajustará dentro del marco sin recortarse */
+    margin: 10px;
+    border: 2px solid #584B53;
+    border-radius: 8px;
+    background-color: #584B53; /* Color de fondo por si la imagen no llena el espacio */
+  }
+  
+  .bottom-right {
+    position: absolute; /* Fija la posición de las imágenes */
+    bottom: 10px; /* Distancia desde la parte inferior */
+    right: 10px; /* Distancia desde el lado derecho */
+    height: 100px; /* Ajusta la altura de las imágenes */
+    object-fit: contain; /* Asegura que no se deformen */
+    margin: 5px; /* Espaciado entre imágenes */
+  }
+  .imagen1 {
+    position: absolute;
+    top: 10px; /* Ajusta la posición desde la parte superior */
+    right: 250px; /* Mantén el espacio lateral */
+    height: 100px;
+    object-fit: contain;
+}
+
+.imagen2 {
+    position: absolute;
+    top: 10px; /* Alinea la imagen desde la parte superior */
+    right: 10px; /* Manténla cerca de la esquina derecha */
+    height: 100px;
+    object-fit: contain;
+}
+
+    
+  body {
+    background: #FEF5EF; /* Transición de colores */
+    color: #000000; /* Texto blanco para resaltar */
+  }
+
+  
+  * {
+    background: transparent; /* Asegúrate de que los elementos secundarios no sobrescriban el fondo */
+  }
+
+ button {
+    background-color: #a24caf; /* Rojo coral para destacar los botones */
+    color: #FEF5EF; /* Combina con el fondo principal */
+    border: 2px solid #2C3E50; /* Borde con el azul grisáceo */
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Suaviza las transiciones */
+}
+
+button:hover {
+    background-color: #2C3E50; /* Cambia a azul grisáceo al pasar el cursor */
+    color: #FEF5EF; /* Texto claro para contraste */
+    transform: scale(1.05); /* Pequeño efecto de zoom */
+}
+.justificado {
+  text-align: justify; /* Justifica el texto */
+  line-height: 1.6; /* Ajusta el interlineado para mejor lectura */
+  font-size: 16px; /* Tamaño de fuente */
+  color: #333333; /* Color del texto */
+  margin: 10px 20px; /* Espaciado alrededor del texto */
+}
+
+    
+    
